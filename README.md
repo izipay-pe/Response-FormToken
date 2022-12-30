@@ -20,9 +20,7 @@ Este es un ejemplo de como obtener un FormToken con NODE.JS para poder crear un 
   git clone https://github.com/izipay-pe/Response-FormToken.git
   ``` 
 
-  * Ingrese a la carpeta raíz del proyecto.
-
-  * A continuación, instale Express y Morgan para poder ejecutar y ver las consultas en el servidor.
+  * Ingrese a la carpeta raíz del proyecto. A continuación, instale Express y Morgan para poder ejecutar y ver las consultas en el servidor.
 
   ```bash
   npm i express morgan
@@ -30,10 +28,12 @@ Este es un ejemplo de como obtener un FormToken con NODE.JS para poder crear un 
   
   * Para poder probar si el servidor está operativo, ejecute el comando.
 
+`Tener en cuenta que se debe cumplir el paso 2 "Configurar la autentifiacion" antes de probar el servidor`
+
   ```bash
   npm run start
   ```
-  
+
   puede ver el resultado en su servidor local: http://localhost:5000/CreatePayment
 
 
