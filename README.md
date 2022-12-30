@@ -35,9 +35,19 @@ Este es un ejemplo de como obtener un FormToken con NODE.JS para poder crear un 
   ```
   
   puede ver el resultado en su servidor local: http://localhost:5000/CreatePayment
-  
 
-## 2.- Subirlo al servidor web
+
+## 2.- Configurar la autentifiacion
+
+  Este manual requiere que ingrese los valores de su cuenta Back Office Vendedor, en la siguiente ruta: `Configuraion -> Tienda -> Claves de API REST`
+
+  En caso de no contar con una cuenta en Izipay puede utilizar las credenciales de prueba extraidas desde la pagina web "MI CUENTA WEB" en el siguiente [Enlace web](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/get_my_keys.html)
+
+  * En la raiz del proyecto entrar en la siguiente ruta: `src -> data -> keys_Audthentication` e ingresar sus credenciales de conexion API REST.
+
+      ![crear app](/src/imagenes-readme/Keys.png)
+
+## 3.- Subirlo al servidor web
 
   Para este ejemplo se utilizó el servidor gratuito de [Heroku](https://www.heroku.com/), ingrese a su cuenta de Heroku y siga los siguientes pasos.
 
@@ -71,5 +81,4 @@ Este es un ejemplo de como obtener un FormToken con NODE.JS para poder crear un 
       https://izpay-prueba.herokuapp.com/CreatePayment
       ```
 
-## 3.- Configurar
   
