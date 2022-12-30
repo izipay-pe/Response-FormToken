@@ -28,11 +28,10 @@ Este es un ejemplo de como obtener un FormToken con NODE.JS para poder crear un 
   
   * Para poder probar si el servidor está operativo, ejecute el comando.
 
-`Tener en cuenta que se debe cumplir el paso 2 "Configurar la autentifiacion" antes de probar el servidor`
-
   ```bash
   npm run start
   ```
+`Tener en cuenta que se debe cumplir el paso 2 "Configurar la autentifiacion" antes de probar el servidor`
 
   puede ver el resultado en su servidor local: http://localhost:5000/CreatePayment
 
